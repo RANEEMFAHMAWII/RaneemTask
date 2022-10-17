@@ -16,7 +16,7 @@ class HomeScreen extends StatelessWidget {
         builder: (controller) {
           return Scaffold(
             appBar: AppBar(
-              title: const Text('raneemfahmawi98@email.com'),
+              title: const Text('raneemfahmawi98@gmail.com'),
               centerTitle: true,
             ),
             body: controller.loading.value
