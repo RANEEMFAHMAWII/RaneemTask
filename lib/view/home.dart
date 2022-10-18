@@ -16,7 +16,7 @@ class HomeScreen extends StatelessWidget {
         builder: (controller) {
           return Scaffold(
             appBar: AppBar(
-              title: const Text('raneemfahmawi98@gmail.com'),
+              title: const Text('youremail@email.com'),
               centerTitle: true,
             ),
             body: controller.loading.value
@@ -34,7 +34,7 @@ class HomeScreen extends StatelessWidget {
                       }),
                       child: ListTile(
                         leading: Text(controller.photo[index].id.toString()),
-                        title: Text(controller.photo[index].title),
+                        title: Text(controller.photo[index].title,style: TextStyle(color: Colors.red),),
                         trailing: Image.network(controller.photo[index].url),
                       ),
                     ),
